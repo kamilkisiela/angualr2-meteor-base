@@ -5,6 +5,8 @@ import { Demo } from "../../../../both/models/demo.model";
 import template from "./demo.component.html";
 import style from "./demo.component.scss";
 
+console.log('style', style);
+
 @Component({
   selector: "demo",
   template,
